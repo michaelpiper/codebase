@@ -55,7 +55,7 @@ findFromCacheOrDB();
 //  A promise is commonly defined as a proxy for a value that will eventually become available.
 //  Promises are one way to deal with asynchronous code, without getting stuck in callback hell.
 
-//  yes you should implement this code in your app
+//  No you shouldn't implement this code in your app
 //  because Promise.race() method returns a promise that fulfills or
 //  rejects as soon as one of the promises in an iterable fulfills 
 //  or rejects, with the value or reason from that promise.
@@ -68,3 +68,4 @@ findFromCacheOrDB();
 //  the promise2 goes to resolved state and add the data to cache memory and it return to the then block. 
 //  so if the data also is not found in database then it rejects,
 //  which means the promise goes to reject state (since the reject callback was called) and it return to catch block
+//  but if it was a function call it will reject as soon as the data is not found in cache
