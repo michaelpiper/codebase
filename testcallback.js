@@ -20,10 +20,11 @@ function findFromCacheOrDB(){
                 // something that fails
                 for (var i in cache){
                     if(cache[i]==find){
-                     resolve("found from cache "+find);
+                        resolve("found from cache "+find);
+                        break;
                     }
                 }
-                reject("Whoops! couldn't found in cache!");
+                reject("Whoops! couldn't find in cache!");
             });
         }
         const findInDatabase=(find)=>{    
@@ -36,11 +37,11 @@ function findFromCacheOrDB(){
                         break;
                     }
                 }
-                reject("Whoops couldn't found in database!");
+                reject("Whoops couldn't find in database!");
             });
         }
     
-        
+        // find in cache
         findInCache(find).then(function(value) {
             // Use whatever returns fastest
             console.log(value);
@@ -48,6 +49,7 @@ function findFromCacheOrDB(){
         })
         .catch(function(reason) {
             console.log(reason);
+            // if not found in cache then find in database
             findInDatabase(find).then(function(value) {
                 // Use whatever returns fastest
                 console.log(value);
@@ -67,11 +69,8 @@ findFromCacheOrDB();
 //  A promise is commonly defined as a proxy for a value that will eventually become available.
 //  Promises are one way to deal with asynchronous code, without getting stuck in callback hell.
 
-//  yes you should implement this code in your app
-//  because Promise.race() method returns a promise that fulfills or
-//  rejects as soon as one of the promises in an iterable fulfills 
-//  or rejects, with the value or reason from that promise.
-//  hence Promise.race is able to solve the latency problem
+
+//  hence this solution is able to solve the latency problem
 
 //  As you can see from the above solution, the promise checks the cache global variable, and if the data is found in it,
 //  the promise goes to a resolved state (since the resolve callback was called) and it return to the then block;
