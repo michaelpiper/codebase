@@ -18,7 +18,7 @@ my code sample
 
     question 2:
     in js case test test2.js
-    in php cast test test2.php
+    in php case test test2.php
 
 
 
