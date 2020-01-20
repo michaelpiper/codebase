@@ -1,0 +1,67 @@
+Summary
+URL: https://amcatglobalapi.aspiringminds.com/api/v1/qb/save-automata-response
+Status: 200
+Source: Network
+Address: 52.73.250.60:443
+Initiator: 
+amcatUI.js:1611:268
+
+
+Request
+:method: POST
+:scheme: https
+:authority: amcatglobalapi.aspiringminds.com
+:path: /api/v1/qb/save-automata-response
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json, text/plain, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate, br
+Host: amcatglobalapi.aspiringminds.com
+Origin: https://amcatglobal.aspiringminds.com
+Content-Length: 1971
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+Referer: https://amcatglobal.aspiringminds.com/?data=eyJsb2dpbiI6eyJ1c2VybmFtZSI6InBpcGVybWljaGFlbEBhb2wuY29tXzYiLCJwYXNzd29yZCI6IjQ2MHFiZHJzIiwibGFuZ3VhZ2UiOm51bGwsImlzQXV0b2xvZ2luIjoxLCJwYXJ0bmVySWQiOjIzMjgsImF1dGhrZXkiOiJZMkZrWm1NeFlqSTBPREF3T1dSaVpHUXlaams1TTJRNE9UQTBabVJrWWpNPSIsInJldHVyblVybCI6Imh0dHBzOi8vc2VjdXJlLnZpdGFwb3dlcmVkLmNvbS9wYXJ0bmVyaW50ZWdyYXRpb24vUmVkaXJlY3RIYW5kbGVyLmFzaHg%2FcG49QXNwaXJpbmdNaW5kcyZjbGllbnR1bmlxdWVpZD0zNGFkMDc4NS0wNTE0LTRmMDYtOTk1Yi1hZTk0OGQ2NDk1OTUmY2xpZW50b3JkZXJpZD0zZWY5YWY5ZC1lYWM1LTRiOGEtOWUwNy04YTAxZWMxZTZmZTYmcGluPUFzcGlyaW5nTWluZHMuUmVkaXJlY3RGcm9tUHVibGlzaGVyIn19&autoLoginVersion=2
+Connection: keep-alive
+X-Api-Signature: YjQ5NzNjNzEzNTk0NGI3MGI5YjM3M2QxNjRlYjIyOGI3YzhjYTEyOTIzZjM3YWJjMzI4NGQ0OGM3MjNhNDgyMA==
+X-Api-AuthToken: 0d16a4ab006b2628f9dd15d9
+X-Api-Client: eyJwbGF0Zm9ybSI6IldlYkNsaWVudFYyIn0=
+
+Response
+:status: 200
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Content-Type: application/json; charset=UTF-8
+Vary: Accept-Encoding
+Date: Mon, 13 Jan 2020 23:07:22 GMT
+X-Frame-Options: DENY, DENY
+Access-Control-Allow-Headers: X-Api-AuthToken, X-Api-Signature, X-Api-Client, Content-Type
+Content-Encoding: gzip
+Content-Length: 117
+Access-Control-Allow-Origin: *
+Server: nginx
+
+Request Data
+MIME Type: application/x-www-form-urlencoded
+moduleId: 2058
+amcatId: 23280666498919
+sid: 6004
+answerObject: JTdCJTIycHJldkxhbmdJZCUyMiUzQTExJTJDJTIybmV4dExhbmdJZCUyMiUzQTExJTJDJTIyYW5zd2VyUmVzcG9uc2UlMjIlM0ElMjJkZWYlMjBtaW5pbXVtSG91cnMocm93cyUyQyUyMGNvbHVtbnMlMkMlMjBncmlkKSUzQSU1Q24lMjAlMjAlMjAlMjAlMjMlMjBXUklURSUyMFlPVVIlMjBDT0RFJTIwSEVSRSU1Q24lMjAlMjAlMjAlMjByb3clMjAlM0QlMjBsZW4oZ3JpZCklNUNuJTIwJTIwJTIwJTIwY29sJTIwJTNEJTIwbGVuKGdyaWQlNUIwJTVEKSU1Q24lMjAlMjAlMjAlMjB1c2VkJTIwJTNEJTIwJTVCJTVCRmFsc2UlMjBmb3IlMjBqJTIwaW4lMjByYW5nZShjb2x1bW5zKSU1RCUyMGZvciUyMGklMjBpbiUyMHJhbmdlKHJvd3MpJTVEJTVDbiU1Q24lMjAlMjAlMjAlMjBjb3VudCUyMCUzRCUyMDAlNUNuJTIwJTIwJTIwJTIwZm9yJTIwaSUyMGluJTIwcmFuZ2Uocm93KSUzQSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBmb3IlMjBqJTIwaW4lMjByYW5nZShjb2wpJTNBJTVDbiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGlmJTIwZ3JpZCU1QmklNUQlNUJqJTVEJTIwJTNEJTNEJTIwMSUyMGFuZCUyMG5vdCUyMHVzZWQlNUJpJTVEJTVCaiU1RCUzQSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjMlMjBzZWxmLmRmcyhncmlkJTJDJTIwdXNlZCUyQyUyMHJvdyUyQyUyMGNvbCUyQyUyMGklMkMlMjBqKSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBjb3VudCUyMCUyQiUzRCUyMDElNUNuJTIwJTIwJTIwJTIwcmV0dXJuJTIwY291bnQlMjIlMkMlMjJxdWVzdGlvblR5cGUlMjIlM0ExMTYlMkMlMjJkZWx0YURhdGElMjIlM0ElN0IlMjJ1bmlxdWVJZCUyMiUzQSUyMmIyNWM0YmZiOWZiMzJjMmU2MzM2Y2Y2N2ZjMDMzNmNhJTIyJTJDJTIyZGF0YSUyMiUzQSU3QiUyMjQyJTIyJTNBJTdCJTIyZGVsdGElMjIlM0ElN0IlMjJzdGFydCUyMiUzQSU3QiUyMnJvdyUyMiUzQSUyMjAlMjIlMkMlMjJjb2x1bW4lMjIlM0ElMjIwJTIyJTdEJTJDJTIyZW5kJTIyJTNBJTdCJTIycm93JTIyJTNBJTIyMCUyMiUyQyUyMmNvbHVtbiUyMiUzQSUyMjAlMjIlN0QlMkMlMjJhY3Rpb24lMjIlM0ElMjJpbnNlcnQlMjIlMkMlMjJsaW5lcyUyMiUzQSU1QiU1RCU3RCUyQyUyMnRpbWUlMjIlM0ExNTc4OTU2ODQxODQzJTJDJTIybW9kZSUyMiUzQSUyMmFjZSUyRm1vZGUlMkZ0ZXh0JTIyJTJDJTIyc2tpcE9ic2VydmF0aW9uJTIyJTNBZmFsc2UlN0QlN0QlN0QlMkMlMjJ0aW1lVGFrZW4lMjIlM0E0JTJDJTIybW9kdWxlVGltZUxlZnQlMjIlM0EyMDclMkMlMjJzaWQlMjIlM0E2MDA0JTJDJTIyc3VibWl0VGltZSUyMiUzQSUyMjIwMjAtMDEtMTQlMjAwMCUzQTA3JTNBMjIlMjIlMkMlMjJxdWVzdGlvblN0YXRlJTIyJTNBNCU3RA==
+
+
+#urlencoded
+%7B%22prevLangId%22%3A11%2C%22nextLangId%22%3A11%2C%22answerResponse%22%3A%22def%20minimumHours(rows%2C%20columns%2C%20grid)%3A%5Cn%20%20%20%20%23%20WRITE%20YOUR%20CODE%20HERE%5Cn%20%20%20%20row%20%3D%20len(grid)%5Cn%20%20%20%20col%20%3D%20len(grid%5B0%5D)%5Cn%20%20%20%20used%20%3D%20%5B%5BFalse%20for%20j%20in%20range(columns)%5D%20for%20i%20in%20range(rows)%5D%5Cn%5Cn%20%20%20%20count%20%3D%200%5Cn%20%20%20%20for%20i%20in%20range(row)%3A%5Cn%20%20%20%20%20%20%20%20for%20j%20in%20range(col)%3A%5Cn%20%20%20%20%20%20%20%20%20%20%20%20if%20grid%5Bi%5D%5Bj%5D%20%3D%3D%201%20and%20not%20used%5Bi%5D%5Bj%5D%3A%5Cn%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%23%20self.dfs(grid%2C%20used%2C%20row%2C%20col%2C%20i%2C%20j)%5Cn%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20count%20%2B%3D%201%5Cn%20%20%20%20return%20count%22%2C%22questionType%22%3A116%2C%22deltaData%22%3A%7B%22uniqueId%22%3A%22b25c4bfb9fb32c2e6336cf67fc0336ca%22%2C%22data%22%3A%7B%2242%22%3A%7B%22delta%22%3A%7B%22start%22%3A%7B%22row%22%3A%220%22%2C%22column%22%3A%220%22%7D%2C%22end%22%3A%7B%22row%22%3A%220%22%2C%22column%22%3A%220%22%7D%2C%22action%22%3A%22insert%22%2C%22lines%22%3A%5B%5D%7D%2C%22time%22%3A1578956841843%2C%22mode%22%3A%22ace%2Fmode%2Ftext%22%2C%22skipObservation%22%3Afalse%7D%7D%7D%2C%22timeTaken%22%3A4%2C%22moduleTimeLeft%22%3A207%2C%22sid%22%3A6004%2C%22submitTime%22%3A%222020-01-14%2000%3A07%3A22%22%2C%22questionState%22%3A4%7D
+
+{"prevLangId":11,"nextLangId":11,"answerResponse":"def minimumHours(rows, columns, grid):\n    # WRITE YOUR CODE HERE\n    row = len(grid)\n    col = len(grid[0])\n    used = [[False for j in range(columns)] for i in range(rows)]\n\n    count = 0\n    for i in range(row):\n        for j in range(col):\n            if grid[i][j] == 1 and not used[i][j]:\n                # self.dfs(grid, used, row, col, i, j)\n                count += 1\n    return count","questionType":116,"deltaData":{"uniqueId":"b25c4bfb9fb32c2e6336cf67fc0336ca","data":{"42":{"delta":{"start":{"row":"0","column":"0"},"end":{"row":"0","column":"0"},"action":"insert","lines":[]},"time":1578956841843,"mode":"ace/mode/text","skipObservation":false}}},"timeTaken":4,"moduleTimeLeft":207,"sid":6004,"submitTime":"2020-01-14 00:07:22","questionState":4}
+
+def minimumHours(rows, columns, grid):
+    # WRITE YOUR CODE HERE
+    row = len(grid)
+    col = len(grid[0])
+    used = [[False for j in range(columns)] for i in range(rows)]
+
+    count = 0
+    for i in range(row):
+        for j in range(col):
+            if grid[i][j] == 1 and not used[i][j]:
+                # self.dfs(grid, used, row, col, i, j)
+                count += 1
+    return count

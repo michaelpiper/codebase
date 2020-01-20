@@ -1,0 +1,179 @@
+Summary
+URL: https://amcatglobalapi.aspiringminds.com/api/v1/qb/get-next-question
+Status: 200
+Source: Network
+Address: 52.73.250.60:443
+Initiator: 
+amcatUI.js:1611:268
+
+
+Request
+:method: POST
+:scheme: https
+:authority: amcatglobalapi.aspiringminds.com
+:path: /api/v1/qb/get-next-question
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json, text/plain, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate, br
+Host: amcatglobalapi.aspiringminds.com
+Origin: https://amcatglobal.aspiringminds.com
+Content-Length: 2988
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+Referer: https://amcatglobal.aspiringminds.com/?data=eyJsb2dpbiI6eyJ1c2VybmFtZSI6InBpcGVybWljaGFlbEBhb2wuY29tXzYiLCJwYXNzd29yZCI6IjQ2MHFiZHJzIiwibGFuZ3VhZ2UiOm51bGwsImlzQXV0b2xvZ2luIjoxLCJwYXJ0bmVySWQiOjIzMjgsImF1dGhrZXkiOiJZMkZrWm1NeFlqSTBPREF3T1dSaVpHUXlaams1TTJRNE9UQTBabVJrWWpNPSIsInJldHVyblVybCI6Imh0dHBzOi8vc2VjdXJlLnZpdGFwb3dlcmVkLmNvbS9wYXJ0bmVyaW50ZWdyYXRpb24vUmVkaXJlY3RIYW5kbGVyLmFzaHg%2FcG49QXNwaXJpbmdNaW5kcyZjbGllbnR1bmlxdWVpZD0zNGFkMDc4NS0wNTE0LTRmMDYtOTk1Yi1hZTk0OGQ2NDk1OTUmY2xpZW50b3JkZXJpZD0zZWY5YWY5ZC1lYWM1LTRiOGEtOWUwNy04YTAxZWMxZTZmZTYmcGluPUFzcGlyaW5nTWluZHMuUmVkaXJlY3RGcm9tUHVibGlzaGVyIn19&autoLoginVersion=2
+Connection: keep-alive
+X-Api-Signature: N2Y2MjFhMGFmMGUxMWE3Y2RiNzc1NWRmMjUzNmE3ODBhY2I0OTdlNjQwYjEyNTFhNjNkYTc5ODAyOGMyMjA1ZA==
+X-Api-AuthToken: 0d16a4ab006b2628f9dd15d9
+X-Api-Client: eyJwbGF0Zm9ybSI6IldlYkNsaWVudFYyIn0=
+
+Response
+:status: 200
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Content-Type: application/json; charset=UTF-8
+Vary: Accept-Encoding
+Date: Mon, 13 Jan 2020 23:03:57 GMT
+X-Frame-Options: DENY, DENY
+Access-Control-Allow-Headers: X-Api-AuthToken, X-Api-Signature, X-Api-Client, Content-Type
+Content-Encoding: gzip
+Content-Length: 1904
+Access-Control-Allow-Origin: *
+Server: nginx
+
+Request Data
+MIME Type: application/x-www-form-urlencoded
+moduleId: 2058
+amcatId: 23280666498919
+sid: 6005
+answerObject: JTdCJTIybmV4dExhbmdJZCUyMiUzQTExJTJDJTIycHJldkxhbmdJZCUyMiUzQTExJTJDJTIyYW5zd2VyUmVzcG9uc2UlMjIlM0ElMjJkZWYlMjBudW1iZXJBbWF6b25UcmVhc3VyZVRydWNrcyhyb3dzJTJDJTIwY29sdW1uJTJDJTIwZ3JpZCklM0ElNUNuJTIwJTIwJTIwJTIwJTIzJTIwV1JJVEUlMjBZT1VSJTIwQ09ERSUyMEhFUkUlNUNuJTIwJTIwJTIwJTIwY291bnQlMjAlM0QlMjAwJTVDbiUyMCUyMCUyMCUyMGZvciUyMGklMjBpbiUyMHJhbmdlKHJvd3MpJTNBJTVDbiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMyUyMGxvb3AlMjBtYXRyaXglNUNuJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwZm9yJTIwaiUyMGluJTIwcmFuZ2UoY29sdW1uKSUzQSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjMlMjBmaW5kJTIwaW5kZXglNUNuJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIzJTIwaWYlMjBpJTIwaW4lMjBncmlkJTIwYW5kJTIwaiUyMGluJTIwZ3JpZCU1QmklNUQlM0ElNUNuJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwaWYlMjBncmlkJTVCaSU1RCU1QmolNUQlMjAlM0QlM0QlMjAxJTIwYW5kJTIwaSUzRCUzRGolM0ElNUNuJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIzJTIwY2hlY2slMjBpZiUyMG1hdGNoJTIwYWRqYWNlbnQlNUNuJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwY291bnQlMjAlMkIlM0QlMjAxJTVDbiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGVsaWYlMjBncmlkJTVCaSU1RCU1QmolNUQlMjAlM0QlM0QlMjAxJTIwYW5kJTIwaiUzRWklMjBhbmQlMjBqLWklM0QlM0RpJTNBJTVDbiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMyUyMGNoZWNrJTIwaWYlMjBtYXRjaCUyMGFkamFjZW50JTVDbiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGNvdW50JTIwJTJCJTNEJTIwMSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBlbGlmJTIwZ3JpZCU1QmklNUQlNUJqJTVEJTIwJTNEJTNEJTIwMSUyMGFuZCUyMGolM0NpJTIwYW5kJTIwaS1qJTNEJTNEaSUzQSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjMlMjBjaGVjayUyMGlmJTIwbWF0Y2glMjBhZGphY2VudCUyMHJldmVyc2VkJTVDbiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGNvdW50JTIwJTJCJTNEJTIwMSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBlbGlmJTIwKGdyaWQlNUJpJTVEJTVCaiU1RCUyMCUzRCUzRCUyMDEpJTIwYW5kJTIwcm93cyUyMCUzQyUyMGNvbHVtbiUyMCUyMGFuZCUyMGolMjAlM0MlMjBjb2x1bW4lM0ElNUNuJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwY291bnQlMjAlMkIlM0QlMjAxJTVDbiUyMCUyMCUyMCUyMHJldHVybiUyMGNvdW50JTIyJTJDJTIycXVlc3Rpb25UeXBlJTIyJTNBMTE2JTJDJTIyZGVsdGFEYXRhJTIyJTNBJTdCJTIydW5pcXVlSWQlMjIlM0ElMjJmYzlhZGMyOTg0YWExYTRjZjNkMjBjMTUwMmFhNjQ4NSUyMiUyQyUyMmRhdGElMjIlM0ElN0IlMjI5ODIlMjIlM0ElN0IlMjJkZWx0YSUyMiUzQSU3QiUyMnN0YXJ0JTIyJTNBJTdCJTIycm93JTIyJTNBJTIyMCUyMiUyQyUyMmNvbHVtbiUyMiUzQSUyMjAlMjIlN0QlMkMlMjJlbmQlMjIlM0ElN0IlMjJyb3clMjIlM0ElMjIwJTIyJTJDJTIyY29sdW1uJTIyJTNBJTIyMCUyMiU3RCUyQyUyMmFjdGlvbiUyMiUzQSUyMmluc2VydCUyMiUyQyUyMmxpbmVzJTIyJTNBJTVCJTVEJTdEJTJDJTIydGltZSUyMiUzQTE1Nzg5NTY2MzcxMzclMkMlMjJtb2RlJTIyJTNBJTIyYWNlJTJGbW9kZSUyRnRleHQlMjIlMkMlMjJza2lwT2JzZXJ2YXRpb24lMjIlM0FmYWxzZSU3RCU3RCU3RCUyQyUyMnRpbWVUYWtlbiUyMiUzQTMlMkMlMjJtb2R1bGVUaW1lTGVmdCUyMiUzQTMwMjMlMkMlMjJzaWQlMjIlM0E2MDA1JTJDJTIyc3VibWl0VGltZSUyMiUzQSUyMjIwMjAtMDEtMTQlMjAwMCUzQTAzJTNBNTclMjIlMkMlMjJxdWVzdGlvblN0YXRlJTIyJTNBMyU3RA==
+nextQuestionNumber: 2
+
+
+def numberAmazonTreasureTrucks(rows, column, grid):
+    # WRITE YOUR CODE HERE
+    count = 0
+    for i in range(rows):
+        # loop matrix
+        for j in range(column):
+            # find index
+            # if i in grid and j in grid[i]:
+            if grid[i][j] == 1 and i==j:
+                # check if match adjacent
+                count += 1
+            elif grid[i][j] == 1 and j>i and j-i==i:
+                # check if match adjacent
+                count += 1
+            elif grid[i][j] == 1 and j<i and i-j==i:
+                # check if match adjacent reversed
+                count += 1
+            elif (grid[i][j] == 1) and rows < column  and j < column:
+                count += 1
+    return count
+{
+    "status": "success",
+    "code": 200,
+    "data": {
+        "moduleStatus": 3,
+        "questionNumber": 2,
+        "languageDetails": {
+            "programmingLang": {
+                "langChoiceAvailable": true,
+                "langChoice": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    6,
+                    9,
+                    16,
+                    19,
+                    11
+                ],
+                "defaultLanguage": 2
+            },
+            "questionLang": null
+        },
+        "questionDetails": {
+            "questionSummary": "",
+            "functionSignature": "def minimumHours(R, C, arr)",
+            "testCasesOutput": "<b>Testcase 1:</b><br/><b>Input:</b><br/><pre>5, 5,<br/>[[1, 0, 0, 0, 0],<br/> [0, 1, 0, 0, 0],<br/> [0, 0, 1, 0, 0],<br/> [0, 0, 0, 1, 0],<br/> [0, 0, 0, 0, 1]]</pre><br/><b>Expected Return Value:</b><br/><pre>4</pre><br/><hr/><b>Testcase 2:</b><br/><b>Input:</b><br/><pre>5, 6,<br/>[[0, 0, 1, 0, 0, 0],<br/> [0, 0, 0, 0, 0, 0],<br/> [0, 0, 0, 0, 0, 1],<br/> [0, 0, 0, 0, 0, 0],<br/> [0, 1, 0, 0, 0, 0]]</pre><br/><b>Expected Return Value:</b><br/><pre>3</pre>",
+            "defaultSourceCode": "def minimumHours(rows, columns, grid):\n    # WRITE YOUR CODE HERE\n    pass",
+            "candidateSourceCode": "def minimumHours(rows, columns, grid):\n    # WRITE YOUR CODE HERE\n    pass",
+            "srcLanguageCode": 11,
+            "runType": 2,
+            "iFrameInterpreterPath": null,
+            "userTCDesc": null,
+            "userTCExample": null,
+            "userTCDefaultCode": null,
+            "userTCCandidateCode": null,
+            "hasUserTCCode": null,
+            "hasExternalUrl": null,
+            "externalUrl": null,
+            "testCasesOutputJson": {
+                "status": true,
+                "messageType": "",
+                "message": "",
+                "additionalMessage": "",
+                "testCaseDetails": {
+                    "1": {
+                        "input": "5, 5,\n[[1, 0, 0, 0, 0],\n [0, 1, 0, 0, 0],\n [0, 0, 1, 0, 0],\n [0, 0, 0, 1, 0],\n [0, 0, 0, 0, 1]]",
+                        "expectedOutput": 4,
+                        "actualOutput": "",
+                        "isTestCasePassed": false,
+                        "testCaseNumber": 1,
+                        "consoleOutput": "",
+                        "explanation": ""
+                    },
+                    "2": {
+                        "input": "5, 6,\n[[0, 0, 1, 0, 0, 0],\n [0, 0, 0, 0, 0, 0],\n [0, 0, 0, 0, 0, 1],\n [0, 0, 0, 0, 0, 0],\n [0, 1, 0, 0, 0, 0]]",
+                        "expectedOutput": 3,
+                        "actualOutput": "",
+                        "isTestCasePassed": false,
+                        "testCaseNumber": 2,
+                        "consoleOutput": "",
+                        "explanation": ""
+                    }
+                },
+                "passedTestCases": 0,
+                "customTestCaseDetails": [],
+                "totalTestCases": 19
+            },
+            "sid": 6004,
+            "questionId": 6004,
+            "subCategoryId": 1,
+            "questionCode": null,
+            "directions": "You are required to implement the algorithm in <strong>Python</strong> only. We emphasize the submission of a fully working code over partially correct but efficient code. Use of certain header files are restricted. Once <strong>submitted</strong>, you cannot review this problem again. You can use <em>print</em> to debug your code. The version of Python being used is <strong>3.5</strong>",
+            "questionStatement": "<p><span style=\"font-weight: 400;\">AWS Cloudfront serves files in multiple physical locations in order to minimize client latency. Cloudfront can be visualized as a 2D grid of servers. When Amazon wants to host a file on Cloudfront, the file needs to be distributed to all servers. The servers are in the form of a 2D array of 0s and 1s, where the value 0 represents a server that has yet to receive the file and 1 represents a server that already has the file.</span><span style=\"font-weight: 400;\"><br /></span><span style=\"font-weight: 400;\"><br /></span><span style=\"font-weight: 400;\">Amazon will initially send the file to a handful of (but not all) servers based on expected utilization. A server, upon receiving a file, will then send the file to adjacent servers that don&#x27;t yet have the file. An adjacent server is either on the left, right, above or below a given server. To conserve bandwidth, once a server receives a file, it will wait 1 hour before sending the file to adjacent servers.</span><span style=\"font-weight: 400;\"><br /></span><span style=\"font-weight: 400;\"><br /></span><span style=\"font-weight: 400;\">Given the 2D array representing the existence of a new file on each server, write an algorithm that will determine the minimum number of hours required to send the file to all the available servers.</span><span style=\"font-weight: 400;\"><br /></span></p><p><strong>Input</strong><br />The input to the function/method consists of three arguments:<br /> <em>rows</em>, an integer representing the number of rows in the grid;<br /> <em>columns</em>, an integer representing the number of columns in the grid;<br /> <em>grid</em>, an integer array representing the current status of its servers. The value 0 represents a server that has yet to receive the file and 1 represents a server that already has the file.<br /> <br /> <strong>Output</strong><br />Return an integer representing&nbsp;the minimum number of hours required to send the file to all the available servers. Return -1 if all the available servers cannot receive the file.<br /><br /> <strong>Note</strong><br />Diagonally placed cells are not considered&nbsp;adjacent.<br /><br /> <strong>Example</strong><br />Input:<br /> <em>rows</em> = 4<br /> <em>columns</em> = 5<br /> <em>grid</em> =<br />[[0, 1, 1, 0, 1],<br />&nbsp;[0, 1, 0, 1, 0],<br />&nbsp;[0, 0, 0, 0, 1],<br />&nbsp;[0, 1, 0, 0, 0]]<br /> <br />Output:<br />2<br /> <br />Explanation:<br />At the end of the first hour, the status of the servers :<br />1, 1, 1, 1, 1<br />1, 1, 1, 1, 1<br />0, 1, 0, 1, 1<br />1, 1, 1, 0, 1<br />at the end of the second hour, the status of the servers :<br />1, 1, 1, 1, 1<br />1, 1, 1, 1, 1<br />1, 1, 1, 1, 1<br />1, 1, 1, 1, 1<br />By the end of two hours, all the servers are up to date.</p>",
+            "questionType": 116,
+            "difficulty": 0,
+            "subCategoryName": "",
+            "categoryName": "",
+            "languageId": 1,
+            "numOptions": 0,
+            "isPhotoRequired": false,
+            "resourceData": [],
+            "isPracticeQuestion": false,
+            "showFullPageDirections": false,
+            "loadMathJax": false,
+            "isPausable": false
+        }
+    },
+    "message": "OK"
+}
+def minimumHours(rows, columns, grid):
+    # WRITE YOUR CODE HERE
+    row = len(grid)
+    col = len(grid[0])
+    used = [[False for j in range(columns)] for i in range(rows)]
+
+    count = 0
+    for i in range(row):
+        for j in range(col):
+            if grid[i][j] == 1 and not used[i][j]:
+                # self.dfs(grid, used, row, col, i, j)
+                count += 1
+    return count    
+$data="
+echo $data_decode=base64_decode($data);
+echo $rawurldecode =rawurldecode($data_decode);
+$result = json_decode($rawurldecode);
+echo $result->answerResponse;

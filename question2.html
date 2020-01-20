@@ -1,0 +1,75 @@
+<p><span style="font-weight: 400;">AWS Cloudfront serves files in multiple physical locations in order to minimize client latency. Cloudfront can be visualized as a 2D grid of servers. When Amazon wants to host a file on Cloudfront, the file needs to be distributed to all servers. The servers are in the form of a 2D array of 0s and 1s, where the value 0 represents a server that has yet to receive the file and 1 represents a server that already has the file.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Amazon will initially send the file to a handful of (but not all) servers based on expected utilization. A server, upon receiving a file, will then send the file to adjacent servers that don&#x27;t yet have the file. An adjacent server is either on the left, right, above or below a given server. To conserve bandwidth, once a server receives a file, it will wait 1 hour before sending the file to adjacent servers.</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Given the 2D array representing the existence of a new file on each server, write an algorithm that will determine the minimum number of hours required to send the file to all the available servers.</span><span style="font-weight: 400;"><br /></span></p><p><strong>Input</strong><br />The input to the function/method consists of three arguments:<br /> <em>rows</em>, an integer representing the number of rows in the grid;<br /> <em>columns</em>, an integer representing the number of columns in the grid;<br /> <em>grid</em>, an integer array representing the current status of its servers. The value 0 represents a server that has yet to receive the file and 1 represents a server that already has the file.<br /> <br /> <strong>Output</strong><br />Return an integer representing&nbsp;the minimum number of hours required to send the file to all the available servers. Return -1 if all the available servers cannot receive the file.<br /><br /> <strong>Note</strong><br />Diagonally placed cells are not considered&nbsp;adjacent.<br /><br /> <strong>Example</strong><br />Input:<br /> <em>rows</em> = 4<br /> <em>columns</em> = 5<br /> <em>grid</em> =<br />[[0, 1, 1, 0, 1],<br />&nbsp;[0, 1, 0, 1, 0],<br />&nbsp;[0, 0, 0, 0, 1],<br />&nbsp;[0, 1, 0, 0, 0]]<br /> <br />Output:<br />2<br /> <br />Explanation:<br />At the end of the first hour, the status of the servers :<br />1, 1, 1, 1, 1<br />1, 1, 1, 1, 1<br />0, 1, 0, 1, 1<br />1, 1, 1, 0, 1<br />at the end of the second hour, the status of the servers :<br />1, 1, 1, 1, 1<br />1, 1, 1, 1, 1<br />1, 1, 1, 1, 1<br />1, 1, 1, 1, 1<br />By the end of two hours, all the servers are up to date.</p>
+<pre>
+def minimumHours(rows, column, grid):
+    # WRITE YOUR CODE HERE
+    count = 0
+    total = 0
+    number=(rows*column)
+    while total < number:
+        total = 0
+        new=[]
+        for i in range(rows):
+            # loop matrix
+            for j in range(column):
+                # find index
+                # if i in grid and j in grid[i]:
+                if grid[i][j] == 1 and [i,j] in new:
+                    pass
+                elif grid[i][j] == 1 :
+                    # find total list of active server -->
+                    total +=1
+                    if  j-1 >= 0 and grid[i][j-1]==0 :
+                        # check if match left
+                        grid[i][j-1]=grid[i][j]
+                        new.append([i,j-1])
+                    if  i+1 < rows and grid[i+1][j]==0 :
+                        # check if match down
+                        grid[i+1][j]=grid[i][j]  
+                        new.append([i+1,j])
+                    if  j+1 < column and grid[i][j+1]==0 :
+                        # check if match right
+                        grid[i][j+1]=grid[i][j]
+                        new.append([i,j+1])
+                    if  i-1 >= 0 and grid[i-1][j]==0 :
+                        # check if match up
+                        grid[i-1][j]=grid[i][j]  
+                        new.append([i-1,j])
+        if total == number:
+            return count                          
+        count += 1
+        print(total,number)
+        print(grid)          
+    return count
+
+rows = 4
+column = 5
+grids =[
+    [0, 1, 1, 0, 1],
+    [0, 1, 0, 1, 0],
+    [0, 0, 0, 0, 1],
+    [0, 1, 0, 0, 0]]
+print(minimumHours(rows, column, grids))
+print(2)
+rows=5
+column=5
+grid=[    
+    [1, 0, 0, 0, 0], 
+    [0, 1, 0, 0, 0],
+    [0, 0, 1, 0, 0],
+    [0, 0, 0, 1, 0],
+    [0, 0, 0, 0, 1]]
+print(minimumHours(rows, column, grid))
+print(4)
+rows=5
+column=6
+grid=[
+    [0, 0, 1, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 1], 
+    [0, 0, 0, 0, 0, 0],
+    [0, 1, 0, 0, 0, 0]]
+print(minimumHours(rows, column, grid))
+print(3)
+
+
+</pre>

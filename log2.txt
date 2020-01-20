@@ -1,0 +1,69 @@
+Summary
+URL: https://amcatglobalapi.aspiringminds.com/api/v1/qb/save-automata-response
+Status: 200
+Source: Network
+Address: 52.73.250.60:443
+Initiator: 
+amcatUI.js:1611:268
+
+
+Request
+:method: POST
+:scheme: https
+:authority: amcatglobalapi.aspiringminds.com
+:path: /api/v1/qb/save-automata-response
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json, text/plain, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate, br
+Host: amcatglobalapi.aspiringminds.com
+Origin: https://amcatglobal.aspiringminds.com
+Content-Length: 1971
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+Referer: https://amcatglobal.aspiringminds.com/?data=eyJsb2dpbiI6eyJ1c2VybmFtZSI6InBpcGVybWljaGFlbEBhb2wuY29tXzYiLCJwYXNzd29yZCI6IjQ2MHFiZHJzIiwibGFuZ3VhZ2UiOm51bGwsImlzQXV0b2xvZ2luIjoxLCJwYXJ0bmVySWQiOjIzMjgsImF1dGhrZXkiOiJZMkZrWm1NeFlqSTBPREF3T1dSaVpHUXlaams1TTJRNE9UQTBabVJrWWpNPSIsInJldHVyblVybCI6Imh0dHBzOi8vc2VjdXJlLnZpdGFwb3dlcmVkLmNvbS9wYXJ0bmVyaW50ZWdyYXRpb24vUmVkaXJlY3RIYW5kbGVyLmFzaHg%2FcG49QXNwaXJpbmdNaW5kcyZjbGllbnR1bmlxdWVpZD0zNGFkMDc4NS0wNTE0LTRmMDYtOTk1Yi1hZTk0OGQ2NDk1OTUmY2xpZW50b3JkZXJpZD0zZWY5YWY5ZC1lYWM1LTRiOGEtOWUwNy04YTAxZWMxZTZmZTYmcGluPUFzcGlyaW5nTWluZHMuUmVkaXJlY3RGcm9tUHVibGlzaGVyIn19&autoLoginVersion=2
+Connection: keep-alive
+X-Api-Signature: YzliZGEwZGFhMWU0ZmYwMjI1ZGQyNDY0ZmM3MTRkNzdhMmRhNTg3YTE0ZDA0OGY5OTAxYjgxNzU1Njg2OTkyZA==
+X-Api-AuthToken: 0d16a4ab006b2628f9dd15d9
+X-Api-Client: eyJwbGF0Zm9ybSI6IldlYkNsaWVudFYyIn0=
+
+Response
+:status: 200
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Content-Type: application/json; charset=UTF-8
+Vary: Accept-Encoding
+Date: Mon, 13 Jan 2020 23:06:47 GMT
+X-Frame-Options: DENY, DENY
+Access-Control-Allow-Headers: X-Api-AuthToken, X-Api-Signature, X-Api-Client, Content-Type
+Content-Encoding: gzip
+Content-Length: 118
+Access-Control-Allow-Origin: *
+Server: nginx
+
+Request Data
+MIME Type: application/x-www-form-urlencoded
+moduleId: 2058
+amcatId: 23280666498919
+sid: 6004
+answerObject: JTdCJTIycHJldkxhbmdJZCUyMiUzQTExJTJDJTIybmV4dExhbmdJZCUyMiUzQTExJTJDJTIyYW5zd2VyUmVzcG9uc2UlMjIlM0ElMjJkZWYlMjBtaW5pbXVtSG91cnMocm93cyUyQyUyMGNvbHVtbnMlMkMlMjBncmlkKSUzQSU1Q24lMjAlMjAlMjAlMjAlMjMlMjBXUklURSUyMFlPVVIlMjBDT0RFJTIwSEVSRSU1Q24lMjAlMjAlMjAlMjByb3clMjAlM0QlMjBsZW4oZ3JpZCklNUNuJTIwJTIwJTIwJTIwY29sJTIwJTNEJTIwbGVuKGdyaWQlNUIwJTVEKSU1Q24lMjAlMjAlMjAlMjB1c2VkJTIwJTNEJTIwJTVCJTVCRmFsc2UlMjBmb3IlMjBqJTIwaW4lMjByYW5nZShjb2x1bW5zKSU1RCUyMGZvciUyMGklMjBpbiUyMHJhbmdlKHJvd3MpJTVEJTVDbiU1Q24lMjAlMjAlMjAlMjBjb3VudCUyMCUzRCUyMDAlNUNuJTIwJTIwJTIwJTIwZm9yJTIwaSUyMGluJTIwcmFuZ2Uocm93KSUzQSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBmb3IlMjBqJTIwaW4lMjByYW5nZShjb2wpJTNBJTVDbiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGlmJTIwZ3JpZCU1QmklNUQlNUJqJTVEJTIwJTNEJTNEJTIwMSUyMGFuZCUyMG5vdCUyMHVzZWQlNUJpJTVEJTVCaiU1RCUzQSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjMlMjBzZWxmLmRmcyhncmlkJTJDJTIwdXNlZCUyQyUyMHJvdyUyQyUyMGNvbCUyQyUyMGklMkMlMjBqKSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBjb3VudCUyMCUyQiUzRCUyMDElNUNuJTIwJTIwJTIwJTIwcmV0dXJuJTIwY291bnQlMjIlMkMlMjJxdWVzdGlvblR5cGUlMjIlM0ExMTYlMkMlMjJkZWx0YURhdGElMjIlM0ElN0IlMjJ1bmlxdWVJZCUyMiUzQSUyMmIyNWM0YmZiOWZiMzJjMmU2MzM2Y2Y2N2ZjMDMzNmNhJTIyJTJDJTIyZGF0YSUyMiUzQSU3QiUyMjQwJTIyJTNBJTdCJTIyZGVsdGElMjIlM0ElN0IlMjJzdGFydCUyMiUzQSU3QiUyMnJvdyUyMiUzQSUyMjAlMjIlMkMlMjJjb2x1bW4lMjIlM0ElMjIwJTIyJTdEJTJDJTIyZW5kJTIyJTNBJTdCJTIycm93JTIyJTNBJTIyMCUyMiUyQyUyMmNvbHVtbiUyMiUzQSUyMjAlMjIlN0QlMkMlMjJhY3Rpb24lMjIlM0ElMjJpbnNlcnQlMjIlMkMlMjJsaW5lcyUyMiUzQSU1QiU1RCU3RCUyQyUyMnRpbWUlMjIlM0ExNTc4OTU2ODA3NTI3JTJDJTIybW9kZSUyMiUzQSUyMmFjZSUyRm1vZGUlMkZ0ZXh0JTIyJTJDJTIyc2tpcE9ic2VydmF0aW9uJTIyJTNBZmFsc2UlN0QlN0QlN0QlMkMlMjJ0aW1lVGFrZW4lMjIlM0E1JTJDJTIybW9kdWxlVGltZUxlZnQlMjIlM0EyMDYlMkMlMjJzaWQlMjIlM0E2MDA0JTJDJTIyc3VibWl0VGltZSUyMiUzQSUyMjIwMjAtMDEtMTQlMjAwMCUzQTA2JTNBNDglMjIlMkMlMjJxdWVzdGlvblN0YXRlJTIyJTNBNCU3RA==
+
+
+def minimumHours(rows, columns, grid):
+    # WRITE YOUR CODE HERE
+    row = len(grid)
+    col = len(grid[0])
+    used = [[False for j in range(columns)] for i in range(rows)]
+
+    count = 0
+    for i in range(row):
+        for j in range(col):
+            if grid[i][j] == 1 and not used[i][j]:
+                # self.dfs(grid, used, row, col, i, j)
+                count += 1
+    return count
+
+    
+$data="
+echo $data_decode=base64_decode($data);
+$rawurldecode =rawurldecode($data_decode);
+$result = json_decode($rawurldecode);
+echo $result->answerResponse;

@@ -1,0 +1,85 @@
+<p>
+    <span style="font-weight: 400;">A plans to open Treasure Truck Pop-Ups in the park areas of Technicia. Technicia is represented as a grid of M*N blocks. Each block represents either a park area, denoted by 1, or a commercial area, denoted by 0.&nbsp;</span>
+    <span style="font-weight: 400;">Adjacent blocks with value 1 are considered a contiguous park. Diagonal blocks with value 1 are not considered part of the same contiguity.&nbsp;</span><span style="font-weight: 400;">Amazon plans to have a Treasure Truck Pop-Up in each contiguous park. <br />
+        <br />Write an algorithm to find the number of Treasure Truck Pop-Ups that Amazon can open in the area of Technicia. </span></p><p><strong>Input</strong>
+            <br />The input to the function/method consists of three arguments:-<br /> <em>rows</em>,
+             an integer representing the number of rows in the grid;<br /> <em>column</em>, 
+             an integer representing the number of columns in the grid;<br /> <em>grid</em>, 
+             a two-dimensional integer array representing Technicia.<br /> <br /> <strong>Output</strong><br />
+             Return an integer representing the number of Treasure Truck Pop-Ups that Amazon can open in the area of Technicia.<br />
+             <br /> <strong>Example</strong><br />Input:<br /> <em>rows </em>= 5<br /> 
+             <em>column</em> = 4<br /> <em>grid</em> =<br />1 1 0 0<br />0 0 1 0<br />0 0 0 0<br />1 0 1 1<br />1 1 1 1<br /> <br />Output:<br />3<br /> 
+             <br />Explanation:<br />The first cluster is the two adjacent 1&#x27;s in row one.<br /> 
+             The second cluster is the 1 on row two, which is not adjacent to any other 1&#x27;s (diagonal blocks are not considered part of the same cluster).<br />
+              The third cluster is the set of seven adjacent 1&#x27;s in rows four and five.<br />
+              The total number of clusters of open areas = 3.</p>
+
+<pre>
+    4, 4, 
+    \n[[1, 1, 0, 0], 
+    \n [0, 0, 0, 0],
+    \n [0, 0, 1, 1],
+    \n [0, 0, 0, 0]]
+
+     result 2
+    7, 7,
+    s[[1, 0, 0, 0, 0, 0, 0],
+     [0, 1, 0, 0, 0, 0, 0],
+     [0, 0, 1, 0, 0, 0, 0],
+    [0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 0, 0, 1, 0, 0],
+    [0, 0, 0, 0, 0, 1, 0],
+    [0, 0, 0, 0, 0, 0, 1]]
+
+    result 7ss
+def numberAmazonTreasureTrucks(rows, column, grid):
+    # WRITE YOUR CODE HERE
+    count = 0
+    for i in range(rows):
+        # loop matrix
+        for j in range(column):
+            # find index
+            # if i in grid and j in grid[i]:
+            if grid[i][j] == 1 and i==j:
+                # check if match diagonal
+                count += 1
+                break
+            elif grid[i][j] == 1 and i+1 < rows and j+1 < column and grid[i+1][j+1]==1:
+                # check if match adjacent
+                count += 1
+                break
+            elif grid[i][j] == 1 and j+1 < column and grid[i][j+1] == 1:
+                # check if match adjacent
+                count += 1
+                break
+    return count
+
+rows=7
+column=7
+grid=[
+    [1, 0, 0, 0, 0, 0, 0],
+    [0, 1, 0, 0, 0, 0, 0],
+    [0, 0, 1, 0, 0, 0, 0],
+    [0, 0, 0, 1, 0, 0, 0],
+    [0, 0, 0, 0, 1, 0, 0],
+    [0, 0, 0, 0, 0, 1, 0],
+    [0, 0, 0, 0, 0, 0, 1]]
+print(numberTreasureTrucks(rows, column, grid))
+rows= 4
+column = 4 
+grid=[
+    [1, 1, 0, 0], 
+    [0, 0, 0, 0],
+    [0, 0, 1, 1],
+    [0, 0, 0, 0]]
+print(numberTreasureTrucks(rows, column, grid))
+rows= 5
+column = 4 
+grid=[
+    [1, 1, 0, 0], 
+    [0, 0, 1, 0],
+    [0, 0, 0, 0],
+    [1, 0, 1, 1],
+    [1, 1, 1, 1]]
+print(numberTreasureTrucks(rows, column, grid))
+</pre>

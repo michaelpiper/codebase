@@ -1,0 +1,161 @@
+Summary
+URL: https://amcatglobalapi.aspiringminds.com/api/v1/qb/get-next-question
+Status: 200
+Source: Network
+Address: 52.73.250.60:443
+Initiator: 
+amcatUI.js:1611:268
+
+
+Request
+:method: POST
+:scheme: https
+:authority: amcatglobalapi.aspiringminds.com
+:path: /api/v1/qb/get-next-question
+Content-Type: application/x-www-form-urlencoded
+Accept: application/json, text/plain, */*
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate, br
+Host: amcatglobalapi.aspiringminds.com
+Origin: https://amcatglobal.aspiringminds.com
+Content-Length: 3572
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+Referer: https://amcatglobal.aspiringminds.com/?data=eyJsb2dpbiI6eyJ1c2VybmFtZSI6InBpcGVybWljaGFlbEBhb2wuY29tXzYiLCJwYXNzd29yZCI6IjQ2MHFiZHJzIiwibGFuZ3VhZ2UiOm51bGwsImlzQXV0b2xvZ2luIjoxLCJwYXJ0bmVySWQiOjIzMjgsImF1dGhrZXkiOiJZMkZrWm1NeFlqSTBPREF3T1dSaVpHUXlaams1TTJRNE9UQTBabVJrWWpNPSIsInJldHVyblVybCI6Imh0dHBzOi8vc2VjdXJlLnZpdGFwb3dlcmVkLmNvbS9wYXJ0bmVyaW50ZWdyYXRpb24vUmVkaXJlY3RIYW5kbGVyLmFzaHg%2FcG49QXNwaXJpbmdNaW5kcyZjbGllbnR1bmlxdWVpZD0zNGFkMDc4NS0wNTE0LTRmMDYtOTk1Yi1hZTk0OGQ2NDk1OTUmY2xpZW50b3JkZXJpZD0zZWY5YWY5ZC1lYWM1LTRiOGEtOWUwNy04YTAxZWMxZTZmZTYmcGluPUFzcGlyaW5nTWluZHMuUmVkaXJlY3RGcm9tUHVibGlzaGVyIn19&autoLoginVersion=2
+Connection: keep-alive
+X-Api-Signature: YTdjNmQyM2E3ZTIxMjA0MDUwMjQ5M2QzMzA4ODJkYmI1ZWRmMDkxZDVhOWUzZDNmYjU0NzBhMjZjZDc3ZTE0Yw==
+X-Api-AuthToken: 0d16a4ab006b2628f9dd15d9
+X-Api-Client: eyJwbGF0Zm9ybSI6IldlYkNsaWVudFYyIn0=
+
+Response
+:status: 200
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Content-Type: application/json; charset=UTF-8
+Vary: Accept-Encoding
+Date: Mon, 13 Jan 2020 22:16:19 GMT
+X-Frame-Options: DENY, DENY
+Access-Control-Allow-Headers: X-Api-AuthToken, X-Api-Signature, X-Api-Client, Content-Type
+Content-Encoding: gzip
+Content-Length: 1692
+Access-Control-Allow-Origin: *
+Server: nginx
+
+Request Data
+MIME Type: application/x-www-form-urlencoded
+moduleId: 2058
+amcatId: 23280666498919
+sid: 6005
+answerObject: JTdCJTIycHJldkxhbmdJZCUyMiUzQTQlMkMlMjJuZXh0TGFuZ0lkJTIyJTNBJTIyMTElMjIlMkMlMjJhbnN3ZXJSZXNwb25zZSUyMiUzQSUyMmRlZiUyMG51bWJlckFtYXpvblRyZWFzdXJlVHJ1Y2tzKHJvdyUyQyUyMGNvbCUyQyUyMG1hdHJpeCklM0ElNUNuJTIwJTIwJTIwJTIwJTIzJTIwV1JJVEUlMjBZT1VSJTIwQ09ERSUyMEhFUkUlNUNuJTIwJTIwJTIwJTIwaWYlMjBub3QlMjBtYXRyaXglM0ElNUNuJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwcmV0dXJuJTIwMCU1Q24lMjAlMjAlMjAlMjByZXN1bHQlMjAlM0QlMjAwJTVDbiUyMCUyMCUyMCUyMG0lMjAlM0QlMjBsZW4obWF0cml4KSU1Q24lMjAlMjAlMjAlMjBuJTIwJTNEJTIwbGVuKG1hdHJpeCU1QjAlNUQpJTVDbiUyMCUyMCUyMCUyMGElMjAlM0QlMjAwJTVDbiUyMCUyMCUyMCUyMGZvciUyMGklMjBpbiUyMHhyYW5nZShtKSUzQSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjBmb3IlMjBqJTIwaW4lMjB4cmFuZ2UobiklM0ElNUNuJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwJTIwaWYlMjBpJTNEJTNEaiUyMGFuZCUyMG1hdHJpeCU1QmklNUQlNUJqJTVEJTIwJTNEJTNEJTIwMSUzQSU1Q24lMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjByZXN1bHQlMjAlMkIlM0QxJTVDbiUyMCUyMCUyMCUyMHJldHVybiUyMHJlc3VsdCUyMiUyQyUyMnF1ZXN0aW9uVHlwZSUyMiUzQTExNiUyQyUyMmRlbHRhRGF0YSUyMiUzQSU3QiUyMnVuaXF1ZUlkJTIyJTNBJTIyZmM5YWRjMjk4NGFhMWE0Y2YzZDIwYzE1MDJhYTY0ODUlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTIyMzg3JTIyJTNBJTdCJTIyZGVsdGElMjIlM0ElN0IlMjJzdGFydCUyMiUzQSU3QiUyMnJvdyUyMiUzQTQlMkMlMjJjb2x1bW4lMjIlM0EwJTdEJTJDJTIyZW5kJTIyJTNBJTdCJTIycm93JTIyJTNBNCUyQyUyMmNvbHVtbiUyMiUzQTQlN0QlMkMlMjJhY3Rpb24lMjIlM0ElMjJyZW1vdmUlMjIlMkMlMjJsaW5lcyUyMiUzQSU1QiUyMiUyMCUyMCUyMCUyMCUyMiU1RCU3RCUyQyUyMnRpbWUlMjIlM0ExNTc4OTUzNzY4MzU3JTJDJTIybW9kZSUyMiUzQSUyMmFjZSUyRm1vZGUlMkZweXRob24lMjIlMkMlMjJza2lwT2JzZXJ2YXRpb24lMjIlM0FmYWxzZSU3RCUyQyUyMjM4OCUyMiUzQSU3QiUyMmRlbHRhJTIyJTNBJTdCJTIyc3RhcnQlMjIlM0ElN0IlMjJyb3clMjIlM0EzJTJDJTIyY29sdW1uJTIyJTNBMTYlN0QlMkMlMjJlbmQlMjIlM0ElN0IlMjJyb3clMjIlM0E0JTJDJTIyY29sdW1uJTIyJTNBMCU3RCUyQyUyMmFjdGlvbiUyMiUzQSUyMnJlbW92ZSUyMiUyQyUyMmxpbmVzJTIyJTNBJTVCJTIyJTIyJTJDJTIyJTIyJTVEJTdEJTJDJTIydGltZSUyMiUzQTE1Nzg5NTM3Njg2MTAlMkMlMjJtb2RlJTIyJTNBJTIyYWNlJTJGbW9kZSUyRnB5dGhvbiUyMiUyQyUyMnNraXBPYnNlcnZhdGlvbiUyMiUzQWZhbHNlJTdEJTJDJTIyMzg5JTIyJTNBJTdCJTIyZGVsdGElMjIlM0ElN0IlMjJzdGFydCUyMiUzQSU3QiUyMnJvdyUyMiUzQSUyMjAlMjIlMkMlMjJjb2x1bW4lMjIlM0ElMjIwJTIyJTdEJTJDJTIyZW5kJTIyJTNBJTdCJTIycm93JTIyJTNBMTIlMkMlMjJjb2x1bW4lMjIlM0ExNyU3RCUyQyUyMmFjdGlvbiUyMiUzQSUyMnJlbW92ZSUyMiUyQyUyMmxpbmVzJTIyJTNBJTVCJTIyZGVmJTIwbnVtYmVyQW1hem9uVHJlYXN1cmVUcnVja3Mocm93JTJDJTIwY29sJTJDJTIwbWF0cml4KSUzQSUyMiUyQyUyMiUyMCUyMCUyMCUyMCUyMyUyMFdSSVRFJTIwWU9VUiUyMENPREUlMjBIRVJFJTIyJTJDJTIyJTIwJTIwJTIwJTIwaWYlMjBub3QlMjBtYXRyaXglM0ElMjIlMkMlMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjByZXR1cm4lMjAwJTIyJTJDJTIyJTIwJTIwJTIwJTIwcmVzdWx0JTIwJTNEJTIwMCUyMiUyQyUyMiUyMCUyMCUyMCUyMG0lMjAlM0QlMjBsZW4obWF0cml4KSUyMiUyQyUyMiUyMCUyMCUyMCUyMG4lMjAlM0QlMjBsZW4obWF0cml4JTVCMCU1RCklMjIlMkMlMjIlMjAlMjAlMjAlMjBhJTIwJTNEJTIwMCUyMiUyQyUyMiUyMCUyMCUyMCUyMGZvciUyMGklMjBpbiUyMHhyYW5nZShtKSUzQSUyMiUyQyUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGZvciUyMGolMjBpbiUyMHhyYW5nZShuKSUzQSUyMiUyQyUyMiUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMCUyMGlmJTIwaSUzRCUzRGolMjBhbmQlMjBtYXRyaXglNUJpJTVEJTVCaiU1RCUyMCUzRCUzRCUyMDElM0ElMjIlMkMlMjIlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjAlMjByZXN1bHQlMjAlMkIlM0QxJTIyJTJDJTIyJTIwJTIwJTIwJTIwcmV0dXJuJTIwcmVzdWx0JTIyJTVEJTdEJTJDJTIydGltZSUyMiUzQTE1Nzg5NTM3Nzg5MDMlMkMlMjJtb2RlJTIyJTNBJTIyYWNlJTJGbW9kZSUyRnB5dGhvbiUyMiUyQyUyMnNraXBPYnNlcnZhdGlvbiUyMiUzQXRydWUlN0QlN0QlN0QlMkMlMjJ0aW1lVGFrZW4lMjIlM0ExNiUyQyUyMm1vZHVsZVRpbWVMZWZ0JTIyJTNBNDY2NiUyQyUyMnNpZCUyMiUzQTYwMDUlMkMlMjJzdWJtaXRUaW1lJTIyJTNBJTIyMjAyMC0wMS0xMyUyMDIzJTNBMTYlM0ExOSUyMiUyQyUyMnF1ZXN0aW9uU3RhdGUlMjIlM0EzJTdE
+nextQuestionNumber: 1
+
+{
+    "status": "success",
+    "code": 200,
+    "data": {
+        "moduleStatus": 2,
+        "questionNumber": 1,
+        "languageDetails": {
+            "programmingLang": {
+                "langChoiceAvailable": true,
+                "langChoice": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    6,
+                    9,
+                    16,
+                    19,
+                    11
+                ],
+                "defaultLanguage": 2
+            },
+            "questionLang": null
+        },
+        "questionDetails": {
+            "questionSummary": "",
+            "functionSignature": "def numberAmazonTreasureTrucks(n, m, grid)",
+            "testCasesOutput": "<b>Testcase 1:</b><br/><b>Input:</b><br/><pre>4, 4, <br/>[[1, 1, 0, 0], <br/> [0, 0, 0, 0], <br/> [0, 0, 1, 1], <br/> [0, 0, 0, 0]]</pre><br/><b>Expected Return Value:</b><br/><pre>2</pre><br/><hr/><b>Testcase 2:</b><br/><b>Input:</b><br/><pre>7, 7,<br/>[[1, 0, 0, 0, 0, 0, 0],<br/> [0, 1, 0, 0, 0, 0, 0],<br/> [0, 0, 1, 0, 0, 0, 0],<br/> [0, 0, 0, 1, 0, 0, 0],<br/> [0, 0, 0, 0, 1, 0, 0],<br/> [0, 0, 0, 0, 0, 1, 0],<br/> [0, 0, 0, 0, 0, 0, 1]]</pre><br/><b>Expected Return Value:</b><br/><pre>7</pre>",
+            "defaultSourceCode": "def numberAmazonTreasureTrucks(rows, column, grid):\n    # WRITE YOUR CODE HERE\n    pass",
+            "candidateSourceCode": "def numberAmazonTreasureTrucks(rows, column, grid):\n    # WRITE YOUR CODE HERE\n    pass",
+            "srcLanguageCode": 11,
+            "runType": 2,
+            "iFrameInterpreterPath": null,
+            "userTCDesc": null,
+            "userTCExample": null,
+            "userTCDefaultCode": null,
+            "userTCCandidateCode": null,
+            "hasUserTCCode": null,
+            "hasExternalUrl": null,
+            "externalUrl": null,
+            "testCasesOutputJson": {
+                "status": true,
+                "messageType": "",
+                "message": "",
+                "additionalMessage": "",
+                "testCaseDetails": {
+                    "1": {
+                        "input": "4, 4, \n[[1, 1, 0, 0], \n [0, 0, 0, 0], \n [0, 0, 1, 1], \n [0, 0, 0, 0]]",
+                        "expectedOutput": 2,
+                        "actualOutput": "",
+                        "isTestCasePassed": false,
+                        "testCaseNumber": 1,
+                        "consoleOutput": "",
+                        "explanation": ""
+                    },
+                    "2": {
+                        "input": "7, 7,\n[[1, 0, 0, 0, 0, 0, 0],\n [0, 1, 0, 0, 0, 0, 0],\n [0, 0, 1, 0, 0, 0, 0],\n [0, 0, 0, 1, 0, 0, 0],\n [0, 0, 0, 0, 1, 0, 0],\n [0, 0, 0, 0, 0, 1, 0],\n [0, 0, 0, 0, 0, 0, 1]]",
+                        "expectedOutput": 7,
+                        "actualOutput": "",
+                        "isTestCasePassed": false,
+                        "testCaseNumber": 2,
+                        "consoleOutput": "",
+                        "explanation": ""
+                    }
+                },
+                "passedTestCases": 0,
+                "customTestCaseDetails": [],
+                "totalTestCases": 16
+            },
+            "sid": 6005,
+            "questionId": 6005,
+            "subCategoryId": 1,
+            "questionCode": null,
+            "directions": "You are required to implement the algorithm in <strong>Python</strong> only. We emphasize the submission of a fully working code over partially correct but efficient code. Use of certain header files are restricted. Once <strong>submitted</strong>, you cannot review this problem again. You can use <em>print</em> to debug your code. The version of Python being used is <strong>3.5</strong>",
+            "questionStatement": "<p><span style=\"font-weight: 400;\">Amazon plans to open Treasure Truck Pop-Ups in the park areas of Technicia. Technicia is represented as a grid of M*N blocks. Each block represents either a park area, denoted by 1, or a commercial area, denoted by 0.&nbsp;</span><span style=\"font-weight: 400;\">Adjacent blocks with value 1 are considered a contiguous park. Diagonal blocks with value 1 are not considered part of the same contiguity.&nbsp;</span><span style=\"font-weight: 400;\">Amazon plans to have a Treasure Truck Pop-Up in each contiguous park. <br /><br />Write an algorithm to find the number of Treasure Truck Pop-Ups that Amazon can open in the area of Technicia. </span></p><p><strong>Input</strong><br />The input to the function/method consists of three arguments:-<br /> <em>rows</em>, an integer representing the number of rows in the grid;<br /> <em>column</em>, an integer representing the number of columns in the grid;<br /> <em>grid</em>, a two-dimensional integer array representing Technicia.<br /> <br /> <strong>Output</strong><br />Return an integer representing the number of Treasure Truck Pop-Ups that Amazon can open in the area of Technicia.<br /><br /> <strong>Example</strong><br />Input:<br /> <em>rows </em>= 5<br /> <em>column</em> = 4<br /> <em>grid</em> =<br />1 1 0 0<br />0 0 1 0<br />0 0 0 0<br />1 0 1 1<br />1 1 1 1<br /> <br />Output:<br />3<br /> <br />Explanation:<br />The first cluster is the two adjacent 1&#x27;s in row one.<br /> The second cluster is the 1 on row two, which is not adjacent to any other 1&#x27;s (diagonal blocks are not considered part of the same cluster).<br /> The third cluster is the set of seven adjacent 1&#x27;s in rows four and five.<br />The total number of clusters of open areas = 3.</p>",
+            "questionType": 116,
+            "difficulty": 0,
+            "subCategoryName": "",
+            "categoryName": "",
+            "languageId": 1,
+            "numOptions": 0,
+            "isPhotoRequired": false,
+            "resourceData": [],
+            "isPracticeQuestion": false,
+            "showFullPageDirections": false,
+            "loadMathJax": false,
+            "isPausable": false
+        }
+    },
+    "message": "OK"
+}
+
+def numberTreasureTrucks(rows, column, grid):
+    # WRITE YOUR CODE HERE
+    count = 0
+    for i in range(rows):
+        # loop matrix
+        for j in range(column):
+            # find index
+            # if i in grid and j in grid[i]:
+            if grid[i][j] == 1 and i==j:
+                # check if match adjacent
+                count += 1
+            elif grid[i][j] == 1 and j>i and j-i==i:
+                # check if match adjacent
+                count += 1
+            elif grid[i][j] == 1 and j<i and i-j==i:
+                # check if match adjacent reversed
+                count += 1
+            elif (grid[i][j] == 1) and rows < column and j < column:
+                count += 1
+    return count
