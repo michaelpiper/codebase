@@ -13,12 +13,12 @@ my code sample
 
 
     Question 1:
-    in first case test test.js
-    in second case test testcallback.js
+    in first case test test.js No
+    in second case test testcallback.js Yes
 
     question 2:
-    in js case test test2.js
-    in php case test test2.php
+    in js case test test2.js Yes
+    in php case test test2.php Yes
 
 
 
